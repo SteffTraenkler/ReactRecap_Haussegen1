@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+section{
+  display: grid;
+  place-content: center;
+  font-size: 2em;
+}
+
+.toDo{
+  cursor: pointer;
+  border: 1px solid darkgray;
+  width: 400px;
+  margin: 2%;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s;
+}
+
+.done{
+  background-color: green;
+  color: transparent;
+}
+
+button{
+  background-color: cornflowerblue;
+  font-size: 3em;
+  width: 2em;
+  cursor: pointer;
+}
+
+input{
+  font-size: 3em;
+  margin-right: 10px;
+  width: 30%;
+}
